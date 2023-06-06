@@ -156,7 +156,7 @@ header.menu-transparent .nav .caret:before, footer .tag-row span {
 
 .section-bg-color, .bg-color-2, header.bg-color-2 .navbar-main, .navbar-mini, .header-base:not(.bg-cover), [class*="col-md-"].boxed-inverse, .boxed-inverse, .fixed-area.boxed-inverse, .form-box .form-control, .form-inline, .tab-box .nav-tabs > li.active > a,
 .tab-box .nav-tabs > li:hover > a, .table-striped > tbody > tr:nth-of-type(odd), .section-two-blocks > .row > div:last-child, .advs-box.boxed-inverse:not(.shadow-1), .header-base {
-    background-color: #f4f9fe;
+    background-color: #ffffff;
 }
 
 .block-quote.quote-2:after {
@@ -601,7 +601,7 @@ hr {
     }
 
     body > div[class*=section-]:last-of-type > .container.content{ /*Added by Omar Younis*/
-        padding-bottom: 10px;
+        padding-bottom: 50px;
         padding-top: 50px;
     }
 
@@ -992,7 +992,7 @@ div.title-base p {
 div[class*=header-]:not(.full-screen-title):not(.header-base) {
     max-width: 1140px;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 15px;/*Modified by Omar Younis*/
     border-radius: 6px;
     height: 410px;
 }
@@ -1427,7 +1427,7 @@ div.adv-img p {
 .niche-box-post .block-infos {
     width: 250px;
     text-align: left;
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
     .niche-box-post .block-infos .block-data {
@@ -1437,7 +1437,7 @@ div.adv-img p {
         border: none;
         border-radius: 23px;
         padding: 0 5px;
-        margin-top: 23px;
+        margin-top: 15px;
     }
 
 .block-infos .block-comment {
