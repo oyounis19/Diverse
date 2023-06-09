@@ -2629,8 +2629,64 @@ RESPONSIVE
     }
 }
 
-/* Blogs posts shoadow on hover */
+/****************** Blogs Page ***********************/
 
 .hov:hover{
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.365) !important;
+}
+
+@media (min-width: 992px) {
+    header .navbar-default .navbar-nav > li > a::after{
+        content: '';
+        height: 2px;
+        width: 0;
+        margin-left: 20%;
+        background-color: #DD3994;
+        position: absolute;
+        bottom: 15px;
+        left: 0;
+        transition: all 0.3s;
+    }
+    header .navbar-default .navbar-nav > li:hover > a::after{
+        width: 50%;
+    }
+    
+    .selected::after{
+        content: '';
+        height: 2px;
+        width: 50%;
+        margin-left: 20%;
+        background-color: #DD3994;
+        position: absolute;
+        bottom: 15px;
+        left: 0;
+    }
+    .title{
+        font-size: 70px !important;
+    }
+}
+@media only screen and (max-width: 570px) {
+    .title-text{
+        width: 180px !important; 
+    }
+}
+.title{
+    font-family: Roboto-Serif;
+    font-weight: bolder !important;
+}
+
+.header{
+    background-color: #f4f9fe !important;
+}
+
+.hrC{
+    border: none;
+    height: 2px;
+    position: relative;
+    top: -5px;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.image{
+    border-radius: 6px 6px 0 0 !important;
 }
